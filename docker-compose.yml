@@ -45,7 +45,7 @@ services:
     volumes:
       - ./infra/certs:/scripts:ro
       - ./infra/certs/out:/certs
-    network_mode: none
+    network_mode: bridge
 
   # ------------------------------------------------ microsserviços
   ms-rastreamento:
