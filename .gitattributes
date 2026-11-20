@@ -1,0 +1,8 @@
+# Garante finais de linha Unix mesmo clonando no Windows.
+# Sem isso, scripts e configs quebram dentro dos containers Linux.
+*.sh        text eol=lf
+*.conf      text eol=lf
+*.py        text eol=lf
+Dockerfile  text eol=lf
+Jenkinsfile text eol=lf
+*.yml       text eol=lf
